@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Favorites</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app">
+    <header>
+        <h1>Github Favorites</h1>
+        <div class="search">
+            <!-- label para acessibilidade css none -->
+            <label class="sr-only" for="input-search">Github User</label>
+            <input id="input-search" type="text" placeholder="Github User">
+            <button>&plus;</button>
+        </div>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Repositories</th>
+                <th>Followers</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="user">
+                    <img src="https://github.com/diegomes000.png" alt="imagem de diegomes000">
+                    <a href="https://github.com/diegomes0000" target="_blank">
+                        <p>Diego Gomes</p>
+                        <span>diegomes000</span>
+                    </a>
+                </td>
+                <td class="repositories">01</td>
+                <td class="followers">01</td>
+                <td><button class="remove">&times;</button></td>
+            </tr>
+            <tr>
+                <td class="user">
+                    <img src="https://github.com/diego3g.png" alt="imagem de diego3g">
+                    <a href="https://github.com/diego3g" target="_blank">
+                        <p>Diego Fernandes</p>
+                        <span>diego3g</span>
+                    </a>
+                </td>
+                <td class="repositories">01</td>
+                <td class="followers">01</td>
+                <td><button class="remove">&times;</button></td>
+            </tr>
+        </tbody>
+    </table>
+  </div>  
+</body>
+</html>
