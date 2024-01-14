@@ -22,9 +22,6 @@ body {
 body * {
     font-family: var(--ff-primary);
 }
-button {
-    
-}
 
 .sr-only {
     position: absolute;
